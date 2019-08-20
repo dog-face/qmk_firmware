@@ -1,3 +1,11 @@
+# mznco's notes
+
+`vim keyboards/planck/keymaps/noah/keymap.c`
+
+`make planck/thk:noah:avrdude`
+
+`avrdude -c usbasp -p m32 -Uflash:w:./planck_thk_noah.hex:i`
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
