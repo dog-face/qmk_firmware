@@ -1,5 +1,11 @@
 # mznco's notes
 
+## Run only once to set your fuses
+
+`avrdude -c usbasp -p m32 -U lfuse:w:0xcf:m -U hfuse:w:0x90:m`
+
+## Run each time to re-flash
+
 `vim keyboards/planck/keymaps/noah/keymap.c`
 
 `make planck/thk:noah:avrdude`
